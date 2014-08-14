@@ -1,0 +1,17 @@
+from setuptools import setup, find_packages
+setup(name='marionette-command-executor',
+        version='0.1.0',
+        description='A command executor for driving Firefox via Marionette directly',
+        author='David Burns',
+        author_email='automatedtester@mozilla.com',
+        classifiers=['Development Status :: 3 - Alpha',
+        'Intended Audience :: Developers',
+        'Operating System :: POSIX',
+        'Operating System :: Microsoft :: Windows',
+        'Operating System :: MacOS :: MacOS X',
+        'Topic :: Software Development :: Testing',
+        'Topic :: Software Development :: Libraries',
+        'Programming Language :: Python'],
+        packages = find_packages(),
+        install_requires=['marionette-transport'],
+)
